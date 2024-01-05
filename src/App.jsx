@@ -1,11 +1,11 @@
 import "./style/Reset.css";
-import AboutMe from "./components/AboutMe";
-import Contac from "./components/Contac";
-import Experience from "./components/Experience";
-import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
-import Skills from "./components/Skills";
 import Title from "./components/Title";
+import AboutMe from "./components/AboutMe";
+import Experience from "./components/Experience";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,12 +21,8 @@ function App() {
         <Experience />
         <Skills />
       <hr />
-      <section className="cinco">
-        <Contac />
-      </section>
-      <section className="seis">
+        <Contact />
         <Footer />
-      </section>
     </div>
   );
 }

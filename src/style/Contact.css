@@ -1,0 +1,60 @@
+.cinco{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 1fr;
+    /* border:  solid white 1px; */
+    width: 100%;
+}
+.container-contact-h2{
+    margin: 2rem 0  0  2rem;
+    text-shadow: 1px 4px 5px var(--color-shadow);
+}
+.container-from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    background: var(--color-BG);
+    box-shadow: 1px 4px 5px var(--color-shadow);
+    margin: 1rem 2rem 0 2rem;
+    border-radius: 5px;
+}
+.container-from>form{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+}
+.container-from>form>label{
+    color: var(--color-T3);
+    font-size: large;
+    margin-top: 0.5rem;
+}
+.container-from>form>input{
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    border-bottom: solid var(--color-P);
+}
+.container-from>form>textarea{
+    font-size: 16px;
+    outline: none;
+    resize: none;
+    background: none;
+    border: none;
+    margin-left: 1rem;
+    border-bottom: solid var(--color-P);
+}
+.container-from>form>button{
+    border-radius: 5px;
+    color: var(--color-BG2);
+    margin: 0.5rem 0 0 1rem;
+}
+.container-from>form>button:hover{
+    border-radius: 5px;
+    background: var(--color-T1);
+    color: var(--color-BG2);
+    margin: 0.5rem 0 0 1rem;
+}

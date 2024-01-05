@@ -1,13 +1,15 @@
+.container-sobre-h2{
+    margin-left: 2rem;
+    text-shadow: 1px 4px 5px var(--color-shadow);
+}
 .container-sobre{
-    height: 180px;
+    display: flex;
+    align-items: center;
+    height: 90%;
     background: var(--color-BG);
     box-shadow: 1px 4px 5px var(--color-shadow);
-    margin: 0 2rem 0 2rem;
+    margin: 1rem 2rem 2rem 2rem;
     border-radius: 5px;
-}
-.container-sobre-h2{
-    text-shadow: 1px 4px 5px var(--color-shadow);
-    margin: 2rem 0 2rem 2.2rem;
 }
 .container-sobre-p{
     line-height: 1.15;

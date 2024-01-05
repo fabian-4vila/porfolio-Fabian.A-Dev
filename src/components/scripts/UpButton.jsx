@@ -1,4 +1,4 @@
-
+import "../../style/Footer.css"
 
 const UpButton = () => {
     const handleClick = () => {

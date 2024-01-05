@@ -1,0 +1,14 @@
+.container-footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+    align-items: center;
+}
+.arriba{
+    background: var(--color-P);
+    height: 100%;
+}
+.container-footer>p{
+    color: var(--color-T2);
+    text-align: center;
+}

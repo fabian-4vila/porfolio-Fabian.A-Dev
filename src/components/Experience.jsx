@@ -25,6 +25,7 @@ const Experience = () => {
 
   return (
     <section className="tres">
+      <h2>Experiencia</h2>
       {exp.map((expItem) => (
         <div className="container-exp" key={expItem.id}>
           <h3>{expItem.titulo}</h3>

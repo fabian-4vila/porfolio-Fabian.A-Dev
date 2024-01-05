@@ -1,9 +1,10 @@
+import"../style/Contact.css"
 
-
-const Contac = () => {
+const Contact = () => {
   return (
-    <div>
-      <h2>contacto</h2>
+    <section className="cinco">
+      <h2 className="container-contact-h2">contacto</h2>
+      <div className="container-from">
       <form action="mailto:fabianavb22@gmail.com" method="post">
         <label htmlFor="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required />
@@ -13,8 +14,9 @@ const Contac = () => {
         <textarea name="mensaje" id="mensaje" cols="30" rows="2"></textarea>
         <button type="submit" value="enviar">Enviar</button>
       </form>
-    </div>
+      </div>
+    </section>
   );
 };
 
-export default Contac;
+export default Contact;

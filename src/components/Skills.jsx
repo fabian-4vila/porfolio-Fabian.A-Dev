@@ -1,4 +1,4 @@
-
+import"../style/Skills.css"
 const Skills = () => {
     const iconos = [
         { id: "10", nombre: 'HTML', imagen: '/html.png' },
@@ -11,20 +11,22 @@ const Skills = () => {
         { id: "17", nombre: 'Jest', imagen: '/jest.png' },
         { id: "18", nombre: 'Git', imagen: '/git.png' },
         { id: "19", nombre: 'GitHub', imagen: '/github.png' }
-      ];
-      
-  return (
-    <ul className="cuatro">
-        {iconos.map((iconos) => (
-            <li className="y" iconos={iconos} key={iconos.id}>
-                <span>
-                    <img src={iconos.imagen} alt={iconos.nombre} />
-                </span>
-                    <p>{iconos.nombre}</p>
-            </li>
-        ))}
-    </ul>
-  )
+    ];
+    return (
+        <div className="container-cuatro">
+        <h2>Habilidades</h2>
+        <ul className="cuatro">
+            {iconos.map((iconos) => (
+                <li className="container-skills" iconos={iconos} key={iconos.id}>
+                    <span>
+                        <img className="skill-icon" src={iconos.imagen} alt={iconos.nombre} />
+                        <p className="skill-p">{iconos.nombre}</p>
+                    </span>
+                </li>
+            ))}
+        </ul>
+        </div>
+    )
 }
 
 export default Skills
