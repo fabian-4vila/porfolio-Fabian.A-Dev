@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     backdrop-filter: blur(50px);
-    color: var(--color-BG);
+    color: var(--color-T2);
 }
 .container-nav-1{
     display: grid;
@@ -21,6 +21,7 @@
     margin: 0 2rem 0 2rem;
     width: 35px;
     height: 35px;
+    filter: drop-shadow(4px 1px 1px var(--color-shadow));
 }
 .container-nav:hover{
     color: var(--color-BG2);

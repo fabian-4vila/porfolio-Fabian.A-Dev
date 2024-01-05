@@ -1,5 +1,5 @@
+import "../style/Experience.css"
 import ImgEfec from "./scripts/ImgEfec";
-
 
 const Experience = () => {
   const exp = [
@@ -26,10 +26,10 @@ const Experience = () => {
   return (
     <section className="tres">
       {exp.map((expItem) => (
-        <div className="xd" key={expItem.id}>
+        <div className="container-exp" key={expItem.id}>
           <h3>{expItem.titulo}</h3>
-          <p>{expItem.parrafo}</p>
           <ImgEfec src={expItem.imagen} alt={expItem.titulo}/>
+          <p>{expItem.parrafo}</p>
         </div>
       ))}
     </section>

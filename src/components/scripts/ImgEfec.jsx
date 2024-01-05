@@ -25,15 +25,15 @@ const ImgEfec = ({ src, alt }) => {
   };
 
   return (
-    <div className="container-exp2-con1" onMouseMove={moverImagen} onMouseOut={resetImagen}>
       <img
-        className="container-exp2-img"
+        onMouseMove={moverImagen} 
+        onMouseOut={resetImagen}
+        className="container-img-exp"
         ref={imagenRef}
         src={src}
         alt={alt}
         style={{ transform }}
       />
-    </div>
   );
 };
 

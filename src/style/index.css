@@ -42,25 +42,17 @@
 }
 .dos{
   display: grid;
-  background: rgb(2, 2, 100);
-  border:  solid white 1px;
   width: 100%;
   place-content: center;
 }
 .tres{
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows:repeat(3,1fr) ;
-  background: coral;
-  border: solid yellow 1px;
+  grid-template-rows:repeat(3,1fr);
   width: 100%;
+  place-items: center;
 }
-.xd{
-  display: grid;
-  background: plum;
-  border: solid white 1px;
-  place-content: center;
-}
+
 .cuatro{
   display: grid;
   width: 100%;
