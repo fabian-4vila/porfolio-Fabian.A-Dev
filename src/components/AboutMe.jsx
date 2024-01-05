@@ -1,4 +1,4 @@
-
+import "../style/AboutMe.css"
 const AboutMe = () => {
   return (
     <div>

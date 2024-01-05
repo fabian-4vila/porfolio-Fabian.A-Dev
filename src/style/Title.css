@@ -1,0 +1,30 @@
+
+
+.container-title-1{
+    display: grid;
+    place-items: center;
+    /* border: solid black 1px; */
+}
+.span-img{
+    display: grid;
+    align-items: end;
+    justify-content: center;
+    background: var(--color-BG3);
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    border: solid var(--color-T3) 5px;
+}
+.container-title-2{
+    display: grid;
+    align-items: center;
+    /* border: solid white 1px; */
+}
+.container-title-2>h1{
+    color: var(--color-T1);
+}
+.container-title-2>h1>span{
+    background: var(--color-Name);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

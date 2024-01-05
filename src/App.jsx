@@ -1,35 +1,32 @@
-import "./App.css";
+import "./style/Reset.css";
 import AboutMe from "./components/AboutMe";
+import Contac from "./components/Contac";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 import NavBar from "./components/NavBar";
 import Skills from "./components/Skills";
 import Title from "./components/Title";
 
 function App() {
-  
-
   return (
-    <div>
-      <aside>
-        <NavBar/>
-      </aside>
-      <section>
-        <Title/>
+    <div className="menos">
+        <NavBar />
+      <section className="uno">
+        <Title />
       </section>
       <hr />
-      <section>
-        <AboutMe/>
+      <section className="dos">
+        <AboutMe />
       </section>
-      <section>
-        <Experience/>
-      </section>
-      <section>
-        <Skills/>
-      </section>
-      
+        <Experience />
+        <Skills />
       <hr />
-      <section></section>
-      <section></section>
+      <section className="cinco">
+        <Contac />
+      </section>
+      <section className="seis">
+        <Footer />
+      </section>
     </div>
   );
 }

@@ -1,0 +1,28 @@
+
+.container-nav{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    grid-template-columns: repeat(5, auto);
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(50px);
+    color: var(--color-BG);
+}
+.container-nav-1{
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    backdrop-filter: blur(50px);
+}
+.container-nav-1>img{
+    display: grid;
+    margin: 0 2rem 0 2rem;
+    width: 35px;
+    height: 35px;
+}
+.container-nav:hover{
+    color: var(--color-BG2);
+    background-color: var(--color-T3);
+}

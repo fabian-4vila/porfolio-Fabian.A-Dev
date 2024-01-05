@@ -1,0 +1,107 @@
+.menos{
+  display: grid;
+  background: var(--color-BG3);
+  grid-template-columns: repeat(auto-fill, minmax(400px, 800px));
+  grid-template-rows: 40px 180px 1px 200px 810px 280px 1px 400px 100px;
+  color: black;
+  justify-items: center;
+  gap: 10px;
+}
+@media (max-width: 600px) {
+  .menos{
+      display: grid;
+      background: var(--color-BG3);
+      grid-template-columns: repeat(auto-fill, minmax(400px, 800px));
+      grid-template-rows: 50px 180px 1px 200px 810px 600px 1px 400px 100px;
+      color: black;
+      justify-items: center;
+      gap: 10px;
+  }
+  hr{
+    height: 90%;
+    width: 0;
+    color: transparent;
+  }
+}
+.cero{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top:0;
+  z-index: 10;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.uno{
+  display: grid;
+  grid-template-columns: 30% 1fr;
+  grid-template-rows: 1fr;
+  width: 100%;
+}
+.dos{
+  display: grid;
+  background: rgb(2, 2, 100);
+  border:  solid white 1px;
+  width: 100%;
+  place-content: center;
+}
+.tres{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows:repeat(3,1fr) ;
+  background: coral;
+  border: solid yellow 1px;
+  width: 100%;
+}
+.xd{
+  display: grid;
+  background: plum;
+  border: solid white 1px;
+  place-content: center;
+}
+.cuatro{
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: repeat(2,1fr);
+  background: green;
+  border: solid white 1px;
+  place-content: center;
+
+}
+.y{
+  display: grid;
+  place-content: center;
+  background: red;
+  border: solid black 1px;
+  margin: 20px;
+}
+@media (max-width: 600px) {
+  .menos .cuatro {
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(5,1fr);
+      background: green;
+      border: solid white 1px;
+  }
+}
+
+
+.cinco{
+  display: grid;
+  background: rgb(41, 41, 150);
+  border:  solid white 1px;
+  width: 100%;
+  height: 410px;
+  place-content: center;
+  
+}
+.seis{
+  display: grid;
+  background: grey;
+  width: 100%;
+  place-content: center;
+}

@@ -14,9 +14,9 @@ const Skills = () => {
       ];
       
   return (
-    <ul>
+    <ul className="cuatro">
         {iconos.map((iconos) => (
-            <li iconos={iconos} key={iconos.id}>
+            <li className="y" iconos={iconos} key={iconos.id}>
                 <span>
                     <img src={iconos.imagen} alt={iconos.nombre} />
                 </span>
