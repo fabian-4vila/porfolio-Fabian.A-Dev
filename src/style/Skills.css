@@ -1,4 +1,5 @@
 .container-cuatro{
+    display: grid;
     width: 100%;
 }
 .container-cuatro>h2{
@@ -33,6 +34,16 @@
     filter: drop-shadow(4px 1px 1px var(--color-shadow));
 }
 @media (max-width: 600px) {
+    .container-cuatro{
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 10% 90%;
+    }
+    .container-cuatro>h2{
+        margin: 1rem 0 0 2rem;
+        text-shadow: 1px 4px 5px var(--color-shadow);
+    }
     .container-skills{
         height: 60px;
         width: 80px;
