@@ -90,6 +90,7 @@
     justify-content: center;
     width: 90%;
     height: 80%;
+    margin-top: 1.5rem;
     grid-column: 1 / 4;
     grid-row: 4 / 5;
 }

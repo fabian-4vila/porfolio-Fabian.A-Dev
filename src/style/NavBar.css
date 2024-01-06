@@ -6,8 +6,8 @@
     grid-template-columns: repeat(5, auto);
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(50px);
-    color: var(--color-T2);
+    color: var(--color-T1);
+    font-weight: bold;
 }
 .container-nav-1{
     display: grid;
@@ -25,5 +25,5 @@
 }
 .container-nav:hover{
     color: var(--color-BG2);
-    background-color: var(--color-T3);
+    background-color: var(--color-T1);
 }
