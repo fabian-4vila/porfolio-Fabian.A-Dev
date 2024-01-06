@@ -9,7 +9,7 @@ const Title = () => {
       </div>
       <div className="container-title-2">
         <h1>
-          Hola, mi nombre es <span>Fabián Ávila</span> soy un programador web.
+          Hola, mi nombre es <span>Fabián Ávila,</span> soy programador web.
         </h1>
       </div>
     </>

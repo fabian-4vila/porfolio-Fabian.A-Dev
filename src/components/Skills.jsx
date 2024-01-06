@@ -7,7 +7,7 @@ const Skills = () => {
         { id: "13", nombre: 'Python', imagen: '/python.png' },
         { id: "14", nombre: 'React', imagen: '/react.png' },
         { id: "15", nombre: 'NodeJs', imagen: '/nodejs.png' },
-        { id: "16", nombre: 'Postgresql', imagen: '/postgresql.png' },
+        { id: "16", nombre: 'Postgres', imagen: '/postgresql.png' },
         { id: "17", nombre: 'Jest', imagen: '/jest.png' },
         { id: "18", nombre: 'Git', imagen: '/git.png' },
         { id: "19", nombre: 'GitHub', imagen: '/github.png' }
