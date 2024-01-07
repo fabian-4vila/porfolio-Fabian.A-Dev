@@ -13,7 +13,7 @@ const Skills = () => {
         { id: "19", nombre: 'GitHub', imagen: '/github.png' }
     ];
     return (
-        <div className="container-cuatro">
+        <div id="4" className="container-cuatro">
         <h2>Habilidades</h2>
         <ul className="cuatro">
             {iconos.map((iconos) => (

@@ -2,10 +2,10 @@ import"../style/Contact.css"
 
 const Contact = () => {
   return (
-    <section className="cinco">
+    <section id="5" className="cinco">
       <h2 className="container-contact-h2">contacto</h2>
       <div className="container-from">
-      <form action="mailto:fabianavb22@gmail.com" method="post" Reply-to netlify>
+      <form action="mailto:fabianavb22@gmail.com" method="post"  to-netlify="true">
         <label htmlFor="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required />
         <label htmlFor="email">Correo Electronico:</label>

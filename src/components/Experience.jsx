@@ -12,7 +12,7 @@ const Experience = () => {
       codigo:"https://github.com/fabian-4vila/entre5-gen29"
     },
     {
-      titulo: "Página de personajes de Rick y Morty:",
+      titulo: "Página de serie de Rick y Morty:",
       parrafo: "Diseñé un sitio divertido y visualmente atractivo que recopila datos sobre los personajes de la serie.",
       imagen: "/rick y morty.png",
       id: "2",
@@ -30,7 +30,7 @@ const Experience = () => {
   ];
 
   return (
-    <section className="tres">
+    <section id="3" className="tres">
       <h2>Experiencia</h2>
       {exp.map((expItem) => (
         <div className="container-exp" key={expItem.id}>

@@ -15,16 +15,51 @@
     box-shadow: 1px 3px 5px var(--color-shadow);
 }
 .container-title-2{
-    display: grid;
     align-items: center;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+
     /* border: solid white 1px; */
 }
-.container-title-2>h1{
+.container-title-2-h1{
     color: var(--color-T1);
+    width: 100%;
+    grid-column: 1/5;
     margin: 0 0.5rem 0 0.5rem;
 }
-.container-title-2>h1>span{
+.container-title-2-span{
     background: var(--color-Name);
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+.button-CV1{
+    font-size: 13px;
+    font-weight: bold;
+    border: solid 1px var(--color-T1);
+    border-radius: 5px;
+    color: var(--color-P);
+    background-color: transparent;
+    height: 40%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.button-CV2{
+    font-size: 13px;
+    font-weight: bold;
+    border: solid 1px var(--color-T1);
+    border-radius: 5px;
+    color: var(--color-P);
+    background-color: transparent;
+    height: 40%;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.button-CV1:hover{
+    background: var(--color-BG);
+}
+.button-CV2:hover{
+    background: var(--color-BG);
 }

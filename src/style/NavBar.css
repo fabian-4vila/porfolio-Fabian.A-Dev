@@ -9,6 +9,13 @@
     color: var(--color-T1);
     font-weight: bold;
 }
+.container-nav>a{
+    display: grid;
+    place-content: center;
+    height: 100%;
+    width: 100%;
+    color: var(--color-T1);
+}
 .container-nav-1{
     display: grid;
     height: 100%;
@@ -26,4 +33,7 @@
 .container-nav:hover{
     color: var(--color-BG2);
     background-color: var(--color-T1);
+}
+.container-nav>a:hover{
+    color: var(--color-BG2);
 }

@@ -24,6 +24,10 @@
     border-radius: 5px;
     box-shadow: 1px 3px 5px var(--color-shadow);
 }
+.container-skills>span:hover{
+    transition: transform 0.2s ease-out;
+    transform:  scale(1.1);
+}
 .skill-icon{
     filter: drop-shadow(4px 1px 1px var(--color-shadow));
     height: 40px;

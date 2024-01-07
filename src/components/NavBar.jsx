@@ -7,11 +7,11 @@ const NavBar = () => {
     <ul className="cero">
       <div className="container-nav-1"> <img src="/Fabian3.png" alt="icono" /></div>
       <EfectoOcultar minWidth={600}>
-          <li className="container-nav">INICIO</li>
-          <li className="container-nav">EXPERIENCIA</li>
-          <li className="container-nav">SOMRE MI</li>
-          <li className="container-nav">HABILIDADES</li>
-          <li className="container-nav">CONTACTO</li>
+          <li className="container-nav"><a href="#1">INICIO</a></li>
+          <li className="container-nav"><a href="#3">EXPERIENCIA</a></li>
+          <li className="container-nav"><a href="#2">SOMRE MI</a></li>
+          <li className="container-nav"><a href="#4">HABILIDADES</a></li>
+          <li className="container-nav"><a href="#5">CONTACTO</a></li>
       </EfectoOcultar>
     </ul>
   )
