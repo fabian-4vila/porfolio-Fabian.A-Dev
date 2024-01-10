@@ -78,6 +78,10 @@
     transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1);
 }
 @media (max-width: 600px) {
+    .tres>h2{
+        margin: 0 0 0 2rem;
+        text-shadow: 1px 4px 5px var(--color-shadow);
+    }
   .tres .container-exp{
     margin: auto;
     display: grid;

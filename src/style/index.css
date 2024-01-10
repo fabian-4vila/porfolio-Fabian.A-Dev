@@ -70,6 +70,7 @@
   grid-template-columns: 1fr;
   grid-template-rows:24px repeat(3,1fr);
   width: 100%;
+  gap: 7px;
   /* border: solid white 1px; */
 }
 
