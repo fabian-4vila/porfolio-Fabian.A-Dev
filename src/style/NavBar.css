@@ -37,7 +37,7 @@
 .container-nav:hover{
     text-shadow: 1px 1px 2px var(--color-shadow);
     color: rgba(255, 255, 255, 0.603);
-    background: var(--color-T1);
+    background: var(--color-T3);
 }
 .container-nav>a:hover{
     text-shadow: 1px 1px 2px var(--color-shadow);

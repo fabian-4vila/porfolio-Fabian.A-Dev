@@ -9,7 +9,7 @@ const NavBar = () => {
       <EfectoOcultar minWidth={600}>
           <li className="container-nav"><a href="#1">INICIO</a></li>
           <li className="container-nav"><a href="#3">EXPERIENCIA</a></li>
-          <li className="container-nav"><a href="#2">SOMRE MI</a></li>
+          <li className="container-nav"><a href="#2">ACERCA DE MI</a></li>
           <li className="container-nav"><a href="#4">HABILIDADES</a></li>
           <li className="container-nav"><a href="#5">CONTACTO</a></li>
       </EfectoOcultar>
