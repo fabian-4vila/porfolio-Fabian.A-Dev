@@ -1,6 +1,6 @@
 import "../style/Title.css";
 import Descarga from "./scripts/Descarga";
-
+import DarkMode from "./scripts/DarkMode";
 
 const Title = () => {
   const files = [
@@ -31,6 +31,9 @@ const Title = () => {
           {files.map((file, index) => (
             <Descarga key={index} file={file} />
           ))}
+        </>
+        <>
+        <DarkMode/>
         </>
       </div>
     </>
