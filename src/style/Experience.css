@@ -5,6 +5,7 @@
 .container-exp{
     display: grid;
     width: 92%;
+    height: 95%;
     margin: 1rem 0 0 2rem;
     gap: 1px;
     background: var(--color-BG);
