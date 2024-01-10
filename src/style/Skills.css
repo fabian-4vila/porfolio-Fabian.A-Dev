@@ -9,7 +9,6 @@
 .container-skills{
     display: grid;
     /* border: solid  black 1px; */
-    background: var(--color-BG3);
     border-radius: 10px;
     place-content: center;
     margin: 1rem;
@@ -17,10 +16,11 @@
 
 .container-skills>span{
     display: grid;
-    background: var(--color-BG);
     place-items: center;
+    color: var(--color-T1);
     height: 80px;
     width: 80px;
+    background: var(--color-BG2);
     border-radius: 5px;
     box-shadow: 1px 3px 5px var(--color-shadow);
 }
@@ -34,8 +34,8 @@
     width: 40px;
 }
 .skill-p{
+    font-weight: bold;
     color: var(--color-T3);
-    filter: drop-shadow(4px 1px 1px var(--color-shadow));
 }
 @media (max-width: 600px) {
     .container-cuatro{
@@ -46,7 +46,7 @@
     }
     .container-cuatro>h2{
         margin: 1rem 0 0 2rem;
-        text-shadow: 1px 4px 5px var(--color-shadow);
+        text-shadow: 1px 2px 5px var(--color-shadow);
     }
     .container-skills{
         height: 60px;
@@ -57,7 +57,7 @@
     }
     .container-skills>span{
         display: grid;
-        background: var(--color-BG);
+        background: var(--color-BG2);
         place-items: center;
         height: 60px;
         width: 80px;

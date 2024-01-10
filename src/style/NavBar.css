@@ -2,19 +2,23 @@
 .container-nav{
     display: grid;
     height: 100%;
-    width: 100%;
+    width: 80%;
     grid-template-columns: repeat(5, auto);
     align-items: center;
     justify-content: center;
-    color: var(--color-T1);
+    text-shadow: 1px 1px 2px var(--color-shadow);
+    color: rgba(255, 255, 255, 0.603);
     font-weight: bold;
 }
 .container-nav>a{
-    display: grid;
-    place-content: center;
-    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
     width: 100%;
-    color: var(--color-T1);
+    height: 100%;
+    text-shadow: 1px 1px 2px var(--color-shadow);
+    color: rgba(255, 255, 255, 0.603);
 }
 .container-nav-1{
     display: grid;
@@ -31,9 +35,12 @@
     filter: drop-shadow(4px 1px 1px var(--color-shadow));
 }
 .container-nav:hover{
-    color: var(--color-BG2);
-    background-color: var(--color-T1);
+    text-shadow: 1px 1px 2px var(--color-shadow);
+    color: rgba(255, 255, 255, 0.603);
+    background: var(--color-T1);
 }
 .container-nav>a:hover{
-    color: var(--color-BG2);
+    text-shadow: 1px 1px 2px var(--color-shadow);
+    color: rgba(255, 255, 255, 0.603);
 }
+

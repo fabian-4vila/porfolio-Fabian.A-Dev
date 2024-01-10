@@ -34,7 +34,7 @@
     place-content: center;
     border: solid 1px var(--color-T3);
     border-radius: 5px;
-    background: var(--color-GB2);
+    background: var(--color-BG2);
     margin-left: 1rem;
     width: 80px;
     grid-column: 2 / 3;
@@ -47,7 +47,7 @@
     place-content: center;
     border: solid 1px var(--color-T3);
     border-radius: 5px;
-    background: var(--color-BG);
+    background: var(--color-BG2);
     margin-left: 1rem;
     width: 80px;
     grid-column: 1 / 2;

@@ -25,11 +25,13 @@
 }
 .container-title-2-h1{
     color: var(--color-T1);
+    text-shadow: 1px 2px 5px var(--color-shadow);
     width: 100%;
     grid-column: 1/5;
     margin: 0 0.5rem 0 0.5rem;
 }
 .container-title-2-span{
+    text-shadow: none;
     background: var(--color-Name);
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -62,4 +64,19 @@
 }
 .button-CV2:hover{
     background: var(--color-BG);
+}
+.DarkMode{
+    align-items: end;
+    border: solid 1px var(--color-T1);
+    background: transparent;
+    width: 40%;
+    height: 40%;
+    border-radius: 5px;
+    margin-left: 3rem;
+}
+.DarkMode>span{
+    font-size: large;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }

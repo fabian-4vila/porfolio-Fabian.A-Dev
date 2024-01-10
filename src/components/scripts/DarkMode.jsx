@@ -1,4 +1,4 @@
-
+import "../../style/Title.css"
 import React, { useEffect, useState } from 'react';
 
 const DarkMode = () => {
@@ -22,15 +22,15 @@ const DarkMode = () => {
 
     const applyOriginalColors = () => {
         document.documentElement.style.setProperty('--color-BG-A', 'linear-gradient(216deg,rgba(178,178,178,0.05) 0%,rgba(178,178,178,0.05) 25%,rgba(213,213,213,0.05) 25%,rgba(213,213,213,0.05) 38%,rgba(32,32,32,0.05) 38%,rgba(32,32,32,0.05) 75%,rgba(219,219,219,0.05) 75%,rgba(219,219,219,0.05) 100%),linear-gradient(44deg,rgba(127,127,127,0.05) 0%,rgba(127,127,127,0.05) 34%,rgba(43,43,43,0.05) 34%,rgba(43,43,43,0.05) 57%,rgba(230,230,230,0.05) 57%,rgba(230,230,230,0.05) 89%,rgba(120,120,120,0.05) 89%,rgba(120,120,120,0.05) 100%),linear-gradient(241deg,rgba(200,200,200,0.05) 0%,rgba(200,200,200,0.05) 14%,rgba(46,46,46,0.05) 14%,rgba(46,46,46,0.05) 60%,rgba(10,10,10,0.05) 60%,rgba(10,10,10,0.05) 69%,rgba(91,91,91,0.05) 69%,rgba(91,91,91,0.05) 100%),linear-gradient(249deg,rgba(74,74,74,0.05) 0%,rgba(74,74,74,0.05) 32%,rgba(107,107,107,0.05) 32%,rgba(107,107,107,0.05) 35%,rgba(53,53,53,0.05) 35%,rgba(53,53,53,0.05) 51%,rgba(74,74,74,0.05) 51%,rgba(74,74,74,0.05) 100%),linear-gradient(92deg,hsl(214,0%,89%),hsl(214,0%,89%))');
-        document.documentElement.style.setProperty('--color-Name', 'linear-gradient(270deg, hsla(281, 54%, 51%, 1) 0%, hsla(220, 48%, 54%, 1) 100%)');
-        document.documentElement.style.setProperty('--color-T1', '#0099ffb3');
-        document.documentElement.style.setProperty('--color-T3', '#9CFFFAb3');
+        document.documentElement.style.setProperty('--color-Name', 'linear-gradient(270deg, #A30D0D 0%, #24105A 100%)');
+        document.documentElement.style.setProperty('--color-T1', '#8D74D0b8');
+        document.documentElement.style.setProperty('--color-T3', '#8D74D0b8');
         document.documentElement.style.setProperty('--color-T2', '#ffffff80');
-        document.documentElement.style.setProperty('--color-BG', '#cbcdc4');
-        document.documentElement.style.setProperty('--color-BG2', '#d4d4d4');
-        document.documentElement.style.setProperty('--color-BG3', '#bfbfbf');
-        document.documentElement.style.setProperty('--color-P', '#404040');
-        document.documentElement.style.setProperty('--color-shadow', '#000000b3');
+        document.documentElement.style.setProperty('--color-BG', '#34323b');
+        document.documentElement.style.setProperty('--color-BG2', '#2b2b2b');
+        document.documentElement.style.setProperty('--color-BG3', '#2b2b2bb1');
+        document.documentElement.style.setProperty('--color-P', '#ffffff80');
+        document.documentElement.style.setProperty('--color-shadow', '#000000');
     };
 
     const changeColors = () => {
@@ -51,11 +51,11 @@ const DarkMode = () => {
 
   return (
     <>
-      <button onClick={toggleDarkMode}>
+      <button className='DarkMode' onClick={toggleDarkMode}>
         {isDarkMode ? (
-          <span role="img" aria-label="Dark Mode">🌙</span>
+          <span role="img" aria-label="Dark Mode">🌚</span>
         ) : (
-          <span role="img" aria-label="Light Mode">☀️</span>
+          <span role="img" aria-label="Light Mode">🌞</span>
         )}
       </button>
     </>
