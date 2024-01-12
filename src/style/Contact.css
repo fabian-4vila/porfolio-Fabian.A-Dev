@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 60px 1fr;
     /* border:  solid white 1px; */
-    width: 100%;
+    width: 95%;
 }
 .container-contact-h2{
     margin: 2rem 0  0  2rem;
@@ -29,6 +29,7 @@
     height: 90%;
 }
 .container-from>form>label{
+    font-weight: bold;
     color: var(--color-T3);
     font-size: large;
     margin-top: 0.5rem;
